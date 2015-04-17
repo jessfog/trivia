@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MovieTrivia</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="userName">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="server">Server IP or Hostname</string>
+    <string name="localhost">https://169.254.8.58:8443</string>
+    <string name="localhost_mobile">https://192.168.1.6:8443</string>
+    <string name="title_activity_video_list">VideoListActivity</string>
+    <string name="title_activity_main">Dashboard</string>
+    <string name="title_activity_question">Play!</string>
+    <string name="friends_activity_question">Challenge a Friend</string>
+    <string name="title_activity_fullscreen">Amazon</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_login2">Login2Activity</string>
+    <string name="register">Register</string>
+    <string name="registrationNameHint">First and Last Name</string>
+    <string name="registrationEmailHint">YourEmail@domain.com</string>
+    <string name="registrationDOBHint">Your Date of Birth</string>
+    <string name="registrationPasswordHint">Create Password</string>
+    <string name="registrationPassword2Hint">Verify Password</string>
+    <string name="registrationName">Name:</string>
+    <string name="registrationEmail">Email:</string>
+    <string name="registrationDOB">DOB:</string>
+    <string name="registrationPassword">Password:</string>
+    <string name="registrationPassword2">Verify:</string>
+
+</resources>

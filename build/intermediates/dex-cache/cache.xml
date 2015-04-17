@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jessemartinez/Documents/development/java_projects/movie-trivia/LoginScreenActivity/libs/butterknife-5.1.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="daf5472b0df6dabaceb6ad755b3812535863965a">
+        <dex dex="/Users/jessemartinez/Documents/development/java_projects/movie-trivia/LoginScreenActivity/build/intermediates/pre-dexed/debug/butterknife-5.1.2-e0ea66144b0292a6c8f4c8d40573474acb8fd555.jar" />
+    </item>
+    <item
+        jar="/Users/jessemartinez/Documents/development/java_projects/movie-trivia/LoginScreenActivity/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="db0f122c99ef9f90dbab3fada6d191f2880cbb8e">
+        <dex dex="/Users/jessemartinez/Documents/development/java_projects/movie-trivia/LoginScreenActivity/build/intermediates/pre-dexed/debug/android-support-v4-04fbbe0a2590dbf3eced70ebbfdb1fc0f5d6974d.jar" />
+    </item>
+    <item
+        jar="/Users/jessemartinez/Documents/development/java_projects/movie-trivia/LoginScreenActivity/libs/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/jessemartinez/Documents/development/java_projects/movie-trivia/LoginScreenActivity/build/intermediates/pre-dexed/debug/bolts-android-1.1.4-99f4160c891670388b1785dcc129d351a6f68c40.jar" />
+    </item>
+    <item
+        jar="/Users/jessemartinez/Documents/development/java_projects/movie-trivia/LoginScreenActivity/libs/retrofit-1.6.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="efb0a36546aa8857ab8df358b106c1817e03cbee">
+        <dex dex="/Users/jessemartinez/Documents/development/java_projects/movie-trivia/LoginScreenActivity/build/intermediates/pre-dexed/debug/retrofit-1.6.1-cb7b9e0d74be3171eabf699852ea3c51279cb8c6.jar" />
+    </item>
+    <item
+        jar="/Users/jessemartinez/Documents/development/java_projects/movie-trivia/LoginScreenActivity/libs/gson-2.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/Users/jessemartinez/Documents/development/java_projects/movie-trivia/LoginScreenActivity/build/intermediates/pre-dexed/debug/gson-2.3-366fc8dc85b99751818277c9ad2f3fad3d2fa19c.jar" />
+    </item>
+    <item
+        jar="/Users/jessemartinez/Documents/development/java_projects/movie-trivia/LoginScreenActivity/libs/Parse-1.9.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1b065010f3c9d441ede9078aca8eabcd1c81e647">
+        <dex dex="/Users/jessemartinez/Documents/development/java_projects/movie-trivia/LoginScreenActivity/build/intermediates/pre-dexed/debug/Parse-1.9.1-6c741aa9754adf5685f9aab93f411fbca8da66c9.jar" />
+    </item>
+    <item
+        jar="/Users/jessemartinez/Documents/development/java_projects/movie-trivia/LoginScreenActivity/libs/guava-17.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9c6ef172e8de35fd8d4d8783e4821e57cdef7445">
+        <dex dex="/Users/jessemartinez/Documents/development/java_projects/movie-trivia/LoginScreenActivity/build/intermediates/pre-dexed/debug/guava-17.0-a8c11b904b9b1335d67793a76cba0ac75703e4d6.jar" />
+    </item>
+    <item
+        jar="/Users/jessemartinez/Documents/development/java_projects/movie-trivia/LoginScreenActivity/libs/commons-io-2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="/Users/jessemartinez/Documents/development/java_projects/movie-trivia/LoginScreenActivity/build/intermediates/pre-dexed/debug/commons-io-2.4-e537119d4347383ceb9218995fb227413d38ea25.jar" />
+    </item>
+
+</items>

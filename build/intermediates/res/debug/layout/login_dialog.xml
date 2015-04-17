@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#fff">
+
+     <EditText
+         android:id="@+id/registrationName"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="20dp"
+         android:ems="10"
+         android:hint="@string/registrationNameHint"
+         android:inputType="textPersonName" />
+
+     <EditText
+         android:id="@+id/registrationEmail"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_below="@+id/registrationName"
+         android:ems="10"
+         android:hint="@string/registrationEmailHint"
+         android:inputType="textEmailAddress" />
+
+     <EditText
+         android:id="@+id/registrationDOB"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_below="@+id/registrationEmail"
+         android:ems="10"
+         android:hint="@string/registrationDOBHint"
+         android:inputType="date" >
+
+         <requestFocus />
+     </EditText>
+
+     <EditText
+         android:id="@+id/registrationPassword"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_below="@+id/registrationDOB"
+         android:ems="10"
+         android:hint="@string/registrationPasswordHint"
+         android:inputType="textPassword" />
+
+     <EditText
+         android:id="@+id/registrationPassword2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_below="@+id/registrationPassword"
+         android:ems="10"
+         android:hint="@string/registrationPassword2Hint"
+         android:inputType="textPassword" />
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/registrationDOB"
+         android:layout_alignBottom="@+id/registrationDOB"
+         android:layout_toLeftOf="@+id/registrationPassword"
+         android:text="@string/registrationDOB"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/lastNameTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/registrationEmail"
+         android:layout_alignBottom="@+id/registrationEmail"
+         android:layout_toLeftOf="@+id/registrationPassword"
+         android:text="@string/registrationEmail"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/firstNameTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/registrationName"
+         android:layout_alignBottom="@+id/registrationName"
+         android:layout_alignRight="@+id/lastNameTextView"
+         android:text="@string/registrationName"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/registrationPassword"
+         android:layout_alignBottom="@+id/registrationPassword"
+         android:layout_alignRight="@+id/textView3"
+         android:text="@string/registrationPassword"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/textView5"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/registrationPassword2"
+         android:layout_alignBottom="@+id/registrationPassword2"
+         android:layout_alignRight="@+id/textView4"
+         android:text="@string/registrationPassword2"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <Button
+         android:id="@+id/loginOpenButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_below="@+id/registrationPassword2"
+         android:text="Register" />
+
+     <Button
+         android:id="@+id/loginCloseButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/loginOpenButton"
+         android:layout_alignBottom="@+id/loginOpenButton"
+         android:layout_alignRight="@+id/textView5"
+         android:text="Cancel" />
+
+</RelativeLayout><!-- From: file:/Users/jessemartinez/Documents/development/java_projects/movie-trivia/LoginScreenActivity/res/layout/login_dialog.xml -->

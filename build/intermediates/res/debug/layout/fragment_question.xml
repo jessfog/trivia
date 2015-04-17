@@ -1,0 +1,156 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.magnum.videoup.client.QuestionActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/roundTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Round: 1" />
+
+    <TextView
+        android:id="@+id/pointsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/firstNameTextView"
+        android:layout_alignBottom="@+id/firstNameTextView"
+        android:layout_centerHorizontal="true"
+        android:text="Points: 1" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lastNameTextView"
+        android:layout_alignBottom="@+id/lastNameTextView"
+        android:layout_alignParentRight="true"
+        android:text="Score: 0" />
+
+    <Button
+        android:id="@+id/choiceOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/questionTextView"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_red_light"
+        android:minHeight="60sp"
+        android:padding="10sp"
+        android:text="The Goonies"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <Button
+        android:id="@+id/choiceTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60sp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/choiceOne"
+        android:layout_marginBottom="5dp"
+        android:padding="10sp"
+        android:background="@android:color/holo_blue_light"
+        android:text="Dark Crystal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+    <Button
+        android:id="@+id/choiceThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60sp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/choiceTwo"
+        android:layout_marginBottom="5dp"
+        android:padding="10sp"
+        android:background="@android:color/holo_green_light"
+        android:text="Return of the Jedi"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/choiceFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60sp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/choiceThree"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Encino Man"/>
+
+    <Button
+        android:id="@+id/askFriendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="100sp"
+        android:layout_alignLeft="@+id/choiceFour"
+        android:layout_alignParentBottom="true"
+        android:onClick="askFriend"
+        android:visibility="gone"
+        android:text="Ask Friend" />
+
+    <Button
+        android:id="@+id/skipButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="100sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/choiceFour"
+        android:onClick="skipSet"
+        android:text="Home" />
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/choiceOne"
+        android:layout_below="@+id/firstNameTextView"
+        android:layout_marginTop="16dp"
+        android:text="Which of the following is not an 80s movie?"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/timeLeftTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/skipButton"
+        android:layout_centerHorizontal="true"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/timeLeftTextView"
+        android:layout_centerHorizontal="true"
+        android:text="Timer:"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageButton
+        android:id="@+id/timerImageButton"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/skipButton"
+        android:layout_alignLeft="@+id/choiceFour"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/correctTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choiceFour"
+        android:layout_centerHorizontal="true"
+        android:text="Correct!"
+        android:visibility="gone"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout><!-- From: file:/Users/jessemartinez/Documents/development/java_projects/movie-trivia/LoginScreenActivity/res/layout/fragment_question.xml -->
